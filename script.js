@@ -13,3 +13,8 @@ logo.addEventListener("click", () => {
   }
   isRed = !isRed;
 });
+
+document.getElementById("pokedex").addEventListener("click", () => {
+  document.getElementById("pokedex").classList.toggle("open");
+});
+
